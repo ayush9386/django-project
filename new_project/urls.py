@@ -28,7 +28,8 @@ urlpatterns = [
     path('admin_view' , views.admin_view),
     path('user_view', views.user_view),
     path('testapp/', include('testapp.urls')),
-    path('crudapp/', include('crudapp.urls'))
+    path('crudapp/', include('crudapp.urls')),
+    path('restapi/', include('restapi.urls')),
 ]
 
 #handler404 = 'new_project.views.handler404'

@@ -10,3 +10,4 @@ class Vehicle(models.Model):
         Customer,
         on_delete = models.CASCADE,
         related_name = 'Vehicle')
+    

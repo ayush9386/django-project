@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'myapp.apps.MyappConfig',
     'testapp.apps.TestappConfig',
     'crudapp.apps.CrudappConfig',
+    'restapi.apps.RestapiConfig',
     'menu.apps.MenuConfig',
     'django.contrib.admin',
     'django.contrib.auth',
