@@ -6,4 +6,3 @@ class studentSerializer(serializers.ModelSerializer):
         model  = student
         fields = ['id' , 'name', 'score' ]
     
-
