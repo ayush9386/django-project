@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'myapp.apps.MyappConfig',
+    'practice.apps.PracticeConfig',
     'testapp.apps.TestappConfig',
     'crudapp.apps.CrudappConfig',
     'restapi.apps.RestapiConfig',

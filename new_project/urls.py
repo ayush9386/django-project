@@ -30,6 +30,8 @@ urlpatterns = [
     path('testapp/', include('testapp.urls')),
     path('crudapp/', include('crudapp.urls')),
     path('restapi/', include('restapi.urls')),
+    path('passenger/', include('practice.urls')),
+    
 ]
 
 #handler404 = 'new_project.views.handler404'
