@@ -31,6 +31,8 @@ urlpatterns = [
     path('crudapp/', include('crudapp.urls')),
     path('restapi/', include('restapi.urls')),
     path('passenger/', include('practice.urls')),
+    path('cbv/', include('cbvSerializer.urls')),
+    path('nestedserializer/', include('nestedserializer.urls')),
     
 ]
 
